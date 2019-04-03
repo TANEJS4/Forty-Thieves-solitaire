@@ -1,0 +1,43 @@
+\indexentry{BoardT@{BoardT}|hyperpage}{5}
+\indexentry{BoardT@{BoardT}!BoardT@{BoardT}|hyperpage}{6}
+\indexentry{BoardT@{BoardT}!BoardT@{BoardT}|hyperpage}{6}
+\indexentry{BoardT@{BoardT}!get\_deck@{get\_deck}|hyperpage}{6}
+\indexentry{get\_deck@{get\_deck}!BoardT@{BoardT}|hyperpage}{6}
+\indexentry{BoardT@{BoardT}!get\_foundation@{get\_foundation}|hyperpage}{6}
+\indexentry{get\_foundation@{get\_foundation}!BoardT@{BoardT}|hyperpage}{6}
+\indexentry{BoardT@{BoardT}!get\_tab@{get\_tab}|hyperpage}{7}
+\indexentry{get\_tab@{get\_tab}!BoardT@{BoardT}|hyperpage}{7}
+\indexentry{BoardT@{BoardT}!get\_waste@{get\_waste}|hyperpage}{7}
+\indexentry{get\_waste@{get\_waste}!BoardT@{BoardT}|hyperpage}{7}
+\indexentry{BoardT@{BoardT}!is\_valid\_deck\_mv@{is\_valid\_deck\_mv}|hyperpage}{7}
+\indexentry{is\_valid\_deck\_mv@{is\_valid\_deck\_mv}!BoardT@{BoardT}|hyperpage}{7}
+\indexentry{BoardT@{BoardT}!is\_valid\_tab\_mv@{is\_valid\_tab\_mv}|hyperpage}{7}
+\indexentry{is\_valid\_tab\_mv@{is\_valid\_tab\_mv}!BoardT@{BoardT}|hyperpage}{7}
+\indexentry{BoardT@{BoardT}!is\_valid\_waste\_mv@{is\_valid\_waste\_mv}|hyperpage}{8}
+\indexentry{is\_valid\_waste\_mv@{is\_valid\_waste\_mv}!BoardT@{BoardT}|hyperpage}{8}
+\indexentry{BoardT@{BoardT}!is\_win\_state@{is\_win\_state}|hyperpage}{8}
+\indexentry{is\_win\_state@{is\_win\_state}!BoardT@{BoardT}|hyperpage}{8}
+\indexentry{BoardT@{BoardT}!tab\_mv@{tab\_mv}|hyperpage}{8}
+\indexentry{tab\_mv@{tab\_mv}!BoardT@{BoardT}|hyperpage}{8}
+\indexentry{BoardT@{BoardT}!valid\_mv\_exists@{valid\_mv\_exists}|hyperpage}{9}
+\indexentry{valid\_mv\_exists@{valid\_mv\_exists}!BoardT@{BoardT}|hyperpage}{9}
+\indexentry{BoardT@{BoardT}!waste\_mv@{waste\_mv}|hyperpage}{9}
+\indexentry{waste\_mv@{waste\_mv}!BoardT@{BoardT}|hyperpage}{9}
+\indexentry{CardT@{CardT}|hyperpage}{9}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{10}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!Stack@{Stack}|hyperpage}{11}
+\indexentry{Stack@{Stack}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{11}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!pop@{pop}|hyperpage}{11}
+\indexentry{pop@{pop}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{11}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!push@{push}|hyperpage}{11}
+\indexentry{push@{push}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{11}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!size@{size}|hyperpage}{12}
+\indexentry{size@{size}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{12}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!top@{top}|hyperpage}{12}
+\indexentry{top@{top}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{12}
+\indexentry{Stack$<$ T $>$@{Stack$<$ T $>$}!toSeq@{toSeq}|hyperpage}{12}
+\indexentry{toSeq@{toSeq}!Stack$<$ T $>$@{Stack$<$ T $>$}|hyperpage}{12}
+\indexentry{include/CardStack.h@{include/CardStack.h}|hyperpage}{13}
+\indexentry{include/CardTypes.h@{include/CardTypes.h}|hyperpage}{13}
+\indexentry{include/GameBoard.h@{include/GameBoard.h}|hyperpage}{14}
+\indexentry{include/Stack.h@{include/Stack.h}|hyperpage}{15}

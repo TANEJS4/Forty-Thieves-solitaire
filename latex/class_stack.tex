@@ -1,0 +1,136 @@
+\hypertarget{class_stack}{}\section{Stack$<$ T $>$ Class Template Reference}
+\label{class_stack}\index{Stack$<$ T $>$@{Stack$<$ T $>$}}
+
+
+Class representing \mbox{\hyperlink{class_stack}{Stack}} (i.\+e. vector) of class T.  
+
+
+
+
+{\ttfamily \#include $<$Stack.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_stack_a3f5265e48ea9fda2e04aa2239fa6ab01}{Stack}} (vector$<$ T $>$ in)
+\begin{DoxyCompactList}\small\item\em Constructor for new \mbox{\hyperlink{class_stack}{Stack}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_stack}{Stack}} \mbox{\hyperlink{class_stack_a7215a80f65ed859c6cca06f76e44da88}{push}} (T a)
+\begin{DoxyCompactList}\small\item\em inserts element at the back of the stack \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_stack}{Stack}} \mbox{\hyperlink{class_stack_a0682e08ce3a10b12697dfd828a83268f}{pop}} ()
+\begin{DoxyCompactList}\small\item\em removes element from the stack \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_stack_ad461f6de40c8672dbf743068f4515061}{top}} ()
+\begin{DoxyCompactList}\small\item\em gets the top element in the stack \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_stack_ab04985802f97ae3555289c865462bf7f}{size}} ()
+\begin{DoxyCompactList}\small\item\em get the size of the \mbox{\hyperlink{class_stack}{Stack}} \end{DoxyCompactList}\item 
+vector$<$ T $>$ \mbox{\hyperlink{class_stack_a91a9cfa054ebcd9725b1520810ecc607}{to\+Seq}} ()
+\begin{DoxyCompactList}\small\item\em returns the \mbox{\hyperlink{class_stack}{Stack}} in form of vector \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Stack$<$ T $>$}
+
+Class representing \mbox{\hyperlink{class_stack}{Stack}} (i.\+e. vector) of class T. 
+
+Data structure (stack) and its components 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_stack_a3f5265e48ea9fda2e04aa2239fa6ab01}\label{class_stack_a3f5265e48ea9fda2e04aa2239fa6ab01}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!Stack@{Stack}}
+\index{Stack@{Stack}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{Stack()}{Stack()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::\mbox{\hyperlink{class_stack}{Stack}} (\begin{DoxyParamCaption}\item[{vector$<$ T $>$}]{in }\end{DoxyParamCaption})}
+
+
+
+Constructor for new \mbox{\hyperlink{class_stack}{Stack}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The input stack for the new \mbox{\hyperlink{class_stack}{Stack}} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stack_a0682e08ce3a10b12697dfd828a83268f}\label{class_stack_a0682e08ce3a10b12697dfd828a83268f}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!pop@{pop}}
+\index{pop@{pop}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{class_stack}{Stack}} \mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+removes element from the stack 
+
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{class_stack}{Stack}} where element came from 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a7215a80f65ed859c6cca06f76e44da88}\label{class_stack_a7215a80f65ed859c6cca06f76e44da88}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!push@{push}}
+\index{push@{push}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{class_stack}{Stack}} \mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::push (\begin{DoxyParamCaption}\item[{T}]{a }\end{DoxyParamCaption})}
+
+
+
+inserts element at the back of the stack 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The card that will be added \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{class_stack}{Stack}} where element went 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_ab04985802f97ae3555289c865462bf7f}\label{class_stack_ab04985802f97ae3555289c865462bf7f}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!size@{size}}
+\index{size@{size}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+unsigned int \mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the size of the \mbox{\hyperlink{class_stack}{Stack}} 
+
+\begin{DoxyReturn}{Returns}
+natural number from (0 to n) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_ad461f6de40c8672dbf743068f4515061}\label{class_stack_ad461f6de40c8672dbf743068f4515061}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!top@{top}}
+\index{top@{top}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T \mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+gets the top element in the stack 
+
+\begin{DoxyReturn}{Returns}
+The top element in the \mbox{\hyperlink{class_stack}{Stack}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a91a9cfa054ebcd9725b1520810ecc607}\label{class_stack_a91a9cfa054ebcd9725b1520810ecc607}} 
+\index{Stack$<$ T $>$@{Stack$<$ T $>$}!toSeq@{toSeq}}
+\index{toSeq@{toSeq}!Stack$<$ T $>$@{Stack$<$ T $>$}}
+\subsubsection{\texorpdfstring{toSeq()}{toSeq()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$T$>$ \mbox{\hyperlink{class_stack}{Stack}}$<$ T $>$\+::to\+Seq (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the \mbox{\hyperlink{class_stack}{Stack}} in form of vector 
+
+\begin{DoxyReturn}{Returns}
+vector form of the \mbox{\hyperlink{class_stack}{Stack}} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_stack_8h}{Stack.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,251 @@
+\hypertarget{class_board_t}{}\section{BoardT Class Reference}
+\label{class_board_t}\index{BoardT@{BoardT}}
+
+
+Class representing the Game\+Board.  
+
+
+
+
+{\ttfamily \#include $<$Game\+Board.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_board_t_a169b9354c66aa248225b6f8f4fcd6c31}{BoardT}} (vector$<$ \mbox{\hyperlink{struct_card_t}{CardT}} $>$ in)
+\begin{DoxyCompactList}\small\item\em Constructs a new \mbox{\hyperlink{class_board_t}{BoardT}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_board_t_a7cdf3c7b6e7dc458aac28955cc08f420}{is\+\_\+valid\+\_\+tab\+\_\+mv}} (\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}} a, unsigned int x, unsigned int y)
+\begin{DoxyCompactList}\small\item\em Checks if moving the element from one Tableau to another component is valid or not. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_board_t_ab571e4faa245e2d62d4f67ffdc79ef34}{is\+\_\+valid\+\_\+waste\+\_\+mv}} (\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}} a, unsigned int x)
+\begin{DoxyCompactList}\small\item\em Checks if moving the element from Waste to another component is valid or not. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_board_t_affe6cfc5c246bcfa0afd59476c70db8c}{is\+\_\+valid\+\_\+deck\+\_\+mv}} ()
+\begin{DoxyCompactList}\small\item\em Checks if moving the element from deck to another component is valid or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_board_t_af55f68f106f0da464c9c5b9dc152f9a8}{tab\+\_\+mv}} (\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}} a, unsigned int x, unsigned int y)
+\begin{DoxyCompactList}\small\item\em moves the element from deck to another component \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_board_t_a21ec6e033ae6a5258a3bfac7389e367d}{waste\+\_\+mv}} (\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}} a, unsigned int x)
+\begin{DoxyCompactList}\small\item\em Moves a card from the waste. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_board_t_a548e3e518666a6f38b49e072a88a6d2c}\label{class_board_t_a548e3e518666a6f38b49e072a88a6d2c}} 
+void \mbox{\hyperlink{class_board_t_a548e3e518666a6f38b49e072a88a6d2c}{deck\+\_\+mv}} ()
+\begin{DoxyCompactList}\small\item\em Moves a card from the deck. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} \mbox{\hyperlink{class_board_t_a70509bcb23b26d594aff5d2f9b81cab3}{get\+\_\+tab}} (unsigned int a)
+\begin{DoxyCompactList}\small\item\em Returns a cardstack for cards at the tableau at the specific index. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} \mbox{\hyperlink{class_board_t_a5167cf5c067a7f4601ed011d329c9846}{get\+\_\+foundation}} (unsigned int a)
+\begin{DoxyCompactList}\small\item\em Returns a cardstack for cards at the foundation at the specific index. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} \mbox{\hyperlink{class_board_t_a2f28e0a5e9c34f396e2aebc79342a225}{get\+\_\+deck}} ()
+\begin{DoxyCompactList}\small\item\em Returns the deck. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} \mbox{\hyperlink{class_board_t_a1e3a7edd2e993d22a453da1487177585}{get\+\_\+waste}} ()
+\begin{DoxyCompactList}\small\item\em Returns the waste. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_board_t_a9420e96ccd6692d0e63054277c5ef672}{valid\+\_\+mv\+\_\+exists}} ()
+\begin{DoxyCompactList}\small\item\em checks if a valid move exists \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_board_t_a163bed593a3f0ba24dd5401b595b75cd}{is\+\_\+win\+\_\+state}} ()
+\begin{DoxyCompactList}\small\item\em checks if the \mbox{\hyperlink{class_board_t}{BoardT}} is currently in win state \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class representing the Game\+Board. 
+
+Includes four main components Tableau, Foundation, Deck, and Waste 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_board_t_a169b9354c66aa248225b6f8f4fcd6c31}\label{class_board_t_a169b9354c66aa248225b6f8f4fcd6c31}} 
+\index{BoardT@{BoardT}!BoardT@{BoardT}}
+\index{BoardT@{BoardT}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{BoardT()}{BoardT()}}
+{\footnotesize\ttfamily Board\+T\+::\+BoardT (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{struct_card_t}{CardT}} $>$}]{in }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \mbox{\hyperlink{class_board_t}{BoardT}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The vector of \mbox{\hyperlink{struct_card_t}{CardT}} (aka the whole two card deck) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_board_t_a2f28e0a5e9c34f396e2aebc79342a225}\label{class_board_t_a2f28e0a5e9c34f396e2aebc79342a225}} 
+\index{BoardT@{BoardT}!get\_deck@{get\_deck}}
+\index{get\_deck@{get\_deck}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{get\_deck()}{get\_deck()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} Board\+T\+::get\+\_\+deck (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the deck. 
+
+\begin{DoxyReturn}{Returns}
+the deck 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a5167cf5c067a7f4601ed011d329c9846}\label{class_board_t_a5167cf5c067a7f4601ed011d329c9846}} 
+\index{BoardT@{BoardT}!get\_foundation@{get\_foundation}}
+\index{get\_foundation@{get\_foundation}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{get\_foundation()}{get\_foundation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} Board\+T\+::get\+\_\+foundation (\begin{DoxyParamCaption}\item[{unsigned int}]{a }\end{DoxyParamCaption})}
+
+
+
+Returns a cardstack for cards at the foundation at the specific index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An integer corresponding to the stack for the foundation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+cardstack for cards at the foundation at the specific index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a70509bcb23b26d594aff5d2f9b81cab3}\label{class_board_t_a70509bcb23b26d594aff5d2f9b81cab3}} 
+\index{BoardT@{BoardT}!get\_tab@{get\_tab}}
+\index{get\_tab@{get\_tab}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{get\_tab()}{get\_tab()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} Board\+T\+::get\+\_\+tab (\begin{DoxyParamCaption}\item[{unsigned int}]{a }\end{DoxyParamCaption})}
+
+
+
+Returns a cardstack for cards at the tableau at the specific index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An integer corresponding to the stack for the tableau \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+cardstack for cards at the tableau at the specific index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a1e3a7edd2e993d22a453da1487177585}\label{class_board_t_a1e3a7edd2e993d22a453da1487177585}} 
+\index{BoardT@{BoardT}!get\_waste@{get\_waste}}
+\index{get\_waste@{get\_waste}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{get\_waste()}{get\_waste()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_card_stack_8h_a29a6854caf5fec306ee8fc0c6b453837}{Card\+StackT}} Board\+T\+::get\+\_\+waste (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the waste. 
+
+\begin{DoxyReturn}{Returns}
+the waste 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_affe6cfc5c246bcfa0afd59476c70db8c}\label{class_board_t_affe6cfc5c246bcfa0afd59476c70db8c}} 
+\index{BoardT@{BoardT}!is\_valid\_deck\_mv@{is\_valid\_deck\_mv}}
+\index{is\_valid\_deck\_mv@{is\_valid\_deck\_mv}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{is\_valid\_deck\_mv()}{is\_valid\_deck\_mv()}}
+{\footnotesize\ttfamily bool Board\+T\+::is\+\_\+valid\+\_\+deck\+\_\+mv (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if moving the element from deck to another component is valid or not. 
+
+\begin{DoxyReturn}{Returns}
+if valid -\/$>$ true else -\/$>$ false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a7cdf3c7b6e7dc458aac28955cc08f420}\label{class_board_t_a7cdf3c7b6e7dc458aac28955cc08f420}} 
+\index{BoardT@{BoardT}!is\_valid\_tab\_mv@{is\_valid\_tab\_mv}}
+\index{is\_valid\_tab\_mv@{is\_valid\_tab\_mv}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{is\_valid\_tab\_mv()}{is\_valid\_tab\_mv()}}
+{\footnotesize\ttfamily bool Board\+T\+::is\+\_\+valid\+\_\+tab\+\_\+mv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}}}]{a,  }\item[{unsigned int}]{x,  }\item[{unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Checks if moving the element from one Tableau to another component is valid or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The (Component) where the top of tableau want to go \\
+\hline
+{\em x} & Index of Tableau (from) \\
+\hline
+{\em y} & Index of another (Component) (to) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if valid -\/$>$ true else -\/$>$ false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_ab571e4faa245e2d62d4f67ffdc79ef34}\label{class_board_t_ab571e4faa245e2d62d4f67ffdc79ef34}} 
+\index{BoardT@{BoardT}!is\_valid\_waste\_mv@{is\_valid\_waste\_mv}}
+\index{is\_valid\_waste\_mv@{is\_valid\_waste\_mv}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{is\_valid\_waste\_mv()}{is\_valid\_waste\_mv()}}
+{\footnotesize\ttfamily bool Board\+T\+::is\+\_\+valid\+\_\+waste\+\_\+mv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}}}]{a,  }\item[{unsigned int}]{x }\end{DoxyParamCaption})}
+
+
+
+Checks if moving the element from Waste to another component is valid or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The (Component) where the top of waste want to go \\
+\hline
+{\em x} & Index of another (Component) (to) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if valid -\/$>$ true else -\/$>$ false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a163bed593a3f0ba24dd5401b595b75cd}\label{class_board_t_a163bed593a3f0ba24dd5401b595b75cd}} 
+\index{BoardT@{BoardT}!is\_win\_state@{is\_win\_state}}
+\index{is\_win\_state@{is\_win\_state}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{is\_win\_state()}{is\_win\_state()}}
+{\footnotesize\ttfamily bool Board\+T\+::is\+\_\+win\+\_\+state (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+checks if the \mbox{\hyperlink{class_board_t}{BoardT}} is currently in win state 
+
+\begin{DoxyReturn}{Returns}
+true if the game has been won, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_af55f68f106f0da464c9c5b9dc152f9a8}\label{class_board_t_af55f68f106f0da464c9c5b9dc152f9a8}} 
+\index{BoardT@{BoardT}!tab\_mv@{tab\_mv}}
+\index{tab\_mv@{tab\_mv}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{tab\_mv()}{tab\_mv()}}
+{\footnotesize\ttfamily void Board\+T\+::tab\+\_\+mv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}}}]{a,  }\item[{unsigned int}]{x,  }\item[{unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+moves the element from deck to another component 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The (Component) where the top of tableau want to go \\
+\hline
+{\em x} & Index of which Tableau (Component) (from) \\
+\hline
+{\em y} & Index of another (Component) (to) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_board_t_a9420e96ccd6692d0e63054277c5ef672}\label{class_board_t_a9420e96ccd6692d0e63054277c5ef672}} 
+\index{BoardT@{BoardT}!valid\_mv\_exists@{valid\_mv\_exists}}
+\index{valid\_mv\_exists@{valid\_mv\_exists}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{valid\_mv\_exists()}{valid\_mv\_exists()}}
+{\footnotesize\ttfamily bool Board\+T\+::valid\+\_\+mv\+\_\+exists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+checks if a valid move exists 
+
+\begin{DoxyReturn}{Returns}
+true if a valid move exists, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_t_a21ec6e033ae6a5258a3bfac7389e367d}\label{class_board_t_a21ec6e033ae6a5258a3bfac7389e367d}} 
+\index{BoardT@{BoardT}!waste\_mv@{waste\_mv}}
+\index{waste\_mv@{waste\_mv}!BoardT@{BoardT}}
+\subsubsection{\texorpdfstring{waste\_mv()}{waste\_mv()}}
+{\footnotesize\ttfamily void Board\+T\+::waste\+\_\+mv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT}}}]{a,  }\item[{unsigned int}]{x }\end{DoxyParamCaption})}
+
+
+
+Moves a card from the waste. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The category for the cards \\
+\hline
+{\em x} & The card that will have a card placed on it \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_game_board_8h}{Game\+Board.\+h}}\end{DoxyCompactItemize}
